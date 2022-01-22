@@ -1,4 +1,4 @@
-# Let'sCode - Frontend Estatico
+# Let'sCode - Frontend Estático :computer:
 
 Repositório criado para estudo de Front-End Estático junto ao curso Web FullStack da Let's Code.
 
