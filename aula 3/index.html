@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 3- CSS Seletores</title>
+    <style>
+        /*Seletor Universal*/
+        * {
+            margin: 0;
+        }
+
+        /*Seletor por Tag*/
+        h1 {
+            color: blue;
+
+        }
+
+        /*Seletor por Classe*/
+        .titulo,
+        .subtitulo {
+            color: red;
+        }
+
+        h2.subtitulo {
+            background-color: green;
+            width: 150px;
+            height: ;
+        }
+
+        /*Seletor por ID*/
+        #negrito {
+            font-weight: bold;
+        }
+
+        /*Seletor por atributo*/
+        /*Seleciona todos os elementos <a> que possuem o atributo title*/
+        a[title] {
+            color: red;
+        }
+
+        /*seleciona todos os elementos do <a> que possuem o atributo title='link-1'*/
+        a[title='link-1'] {
+            color: black;
+        }
+
+        /*Seleciona todos <p> que posssuem atributo class = 'texto' ou que possuam na sua lista de classes a classe 'texto'*/
+        p[class='texto'] {
+            font-size: 32px;
+        }
+
+        p[class~='texto'] {
+            font-style: italic;
+        }
+
+        p[class|='texto'] {
+            margin-top: 24px;
+        }
+
+        p[class^='texto'] {
+            border: 1px solid black;
+        }
+
+        p[class$='verde']{
+            color: green;
+        }
+
+        p + span {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class='titulo'>Este é um título</h1>
+    <h2 class='subtitulo yellow'>Este é um subtítulo</h2>
+    <h3 class='yellow'>Este é um h3</h3>
+    <p id='negrito'>Este é um parágrafo</p>
+    <p id='negrito'>Este é outro parágrafo</p>
+
+    <br><br><br>
+
+    <a href="https://google.com" title='link-1'>Este é um link</a> <br>
+    <a href="https://google.com" title='link-2'>Este é um link</a> <br>
+    <a href="https://google.com" title='link-3'>Este é um link</a>
+
+    <p class="texto texto-especial">Um texto qualquer</p>
+
+    <p class="texto-qualquer"></p>
+
+    <p class="paragrafo-verde">Paragrafo verde</p>
+    <br>
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum deleniti ex dolor cumque possimus officiis praesentium, maxime ipsam delectus esse autem laborum quo labore consectetur repellendus recusandae quas similique enim!</span>
+</body>
+
+</html>
