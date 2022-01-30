@@ -1,4 +1,4 @@
-## Praticando Grid com [Css Grid Garden](https://cssgridgarden.com/):
+## Praticando Grid com [Grid Garden](https://cssgridgarden.com/):
 ![cssgridgarden-completed](https://user-images.githubusercontent.com/91096652/151704751-ac0bbeb9-ab2d-4720-bcd5-903319a4cb42.jpg)
 
 ## Praticando Flexbox com [Flexbox Froggy](https://flexboxfroggy.com/):
